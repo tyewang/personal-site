@@ -28,6 +28,10 @@
   padding-left: 5%;
   padding-right: 5%;
 }
+.header {
+  height: 33%;
+  min-height: min-content;
+}
 .header h1 {
   font-family: 'Lato';
   color: white;
@@ -41,6 +45,16 @@
   font-weight: 200;
   color: white;
   font-size: 120%;
+  text-align: right;
+}
+.body {
+  height: 100%;
+  padding-top: 5%;
+}
+.body p {
+  font-family: 'Fira Sans';
+  color: white;
+  font-size: 150%;
   text-align: right;
 }
 .social {
@@ -62,16 +76,4 @@
   height: 2.55em;
   width: 2.55em;
   margin-top: 0.2em;
-}
-.body {
-  position: absolute;
-  top: 33%;
-  height: 100%;
-  padding-top: 5%;
-}
-.body p {
-  font-family: 'Fira Sans';
-  color: white;
-  font-size: 150%;
-  text-align: right;
 }
