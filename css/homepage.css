@@ -12,9 +12,19 @@
   overflow: hidden;
   background: #000;
 }
-.image-container .poster img {
+.image-container .poster {
   width: 100%;
   top: 0;
+  padding-top: 133.34%;  /* height/width of background image */
+  background-image: url(../img/background_portrait.jpg);
+  background-size: 100%;
+}
+@media (min-aspect-ratio: 1/1) {
+  .image-container .poster {
+    padding-top: 88.89%;  /* height/width of background image */
+    background-image: url(../img/background.jpg);
+    background-size: 100%;
+  }
 }
 .overlay-desc {
   background: rgba(0,0,0,0.4);
