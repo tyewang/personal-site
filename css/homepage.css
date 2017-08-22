@@ -69,9 +69,15 @@
 .body p {
   font-family: 'Fira Sans';
   color: white;
-  font-size: 150%;
   text-align: right;
+  font-size: 100%;
 }
+@media (min-width: 40em) {
+  .body p {
+    font-size: 150%;
+  }
+}
+
 .social {
   margin-top: 20px;
   margin-right: 20px;
