@@ -39,8 +39,8 @@
   padding-right: 5%;
 }
 .header {
-  height: 33%;
-  min-height: 25em;
+  height: 40%;
+  min-height: 20em;
   min-height: min-content;
 }
 .header h1 {
