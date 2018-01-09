@@ -8,22 +8,25 @@
   bottom: 0%;
   left: 0%;
   height: 100%;
-  width: 100%;
   overflow: hidden;
   background: #000;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 .image-container .poster {
-  width: 100%;
+  position: absolute;
   top: 0;
-  padding-top: 133.34%;  /* height/width of background image */
   background-image: url(../img/background_portrait.jpg);
   background-size: 100%;
 }
-@media (min-aspect-ratio: 1/1) {
+@media (min-aspect-ratio: 2048/2731) {
   .image-container .poster {
-    padding-top: 88.89%;  /* height/width of background image */
-    background-image: url(../img/background.jpg);
-    background-size: 100%;
+    width: 100%;
+  }
+}
+@media (max-aspect-ratio: 2048/2731) {
+  .image-container .poster {
+    height: 100%;
   }
 }
 .overlay-desc {
