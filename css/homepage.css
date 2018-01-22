@@ -16,16 +16,6 @@ a:hover {
   background-size: 100%;
   min-width: 100vw;
 }
-@media (min-aspect-ratio: 2048/2731) {
-  .poster {
-    width: 100%;
-  }
-}
-@media (max-aspect-ratio: 2048/2731) {
-  .poster {
-    height: 100%;
-  }
-}
 .overlay-desc {
   position: relative;
   height: 100%;
