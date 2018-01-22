@@ -1,6 +1,12 @@
 body {
   margin: 0;
 }
+a {
+  color: white;
+}
+a:hover {
+  color: lightgray;
+}
 .poster {
   position: absolute;
   top: 0;
