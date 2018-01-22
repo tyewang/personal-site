@@ -13,7 +13,8 @@ a:hover {
   background-image: url(http://www.tyewang.com/img/background_portrait.jpg);
   background-position: 50% 60%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-color: black;
   min-width: 100vw;
 }
 .overlay-desc {
