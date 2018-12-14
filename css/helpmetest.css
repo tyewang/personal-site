@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+.container {
+  margin: 0 auto 0 auto;
+  padding: 0 3em 0 3em;
+  max-width: 45em;
+  display: flex;
+  flex-direction: column;
+}
+h1, h2, h3 {
+  font-family: 'Fira Sans';
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+p {
+  font-family: 'Lato';
+  font-size: 20px;
+  line-height: 1.48;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+video {
+  margin: 1em 0 1em 0;
+}
+
+.cta {
+  color: green;
+  font-size: 210%;
+}
+
+.faq {
+  margin-top: 2em;
+}
