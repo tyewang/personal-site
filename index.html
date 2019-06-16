@@ -9,7 +9,10 @@
   <div class="poster">
     <div class="overlay-desc">
       <div class='header'>
-        <h1>Hi, I'm Tye</h1>
+        <div id="typed-strings">
+          <h1>Hi, ^1000 I'm Tye</h1>
+        </div>
+        <h1><span id="typed"></span></h1>
         <h2>Founder of <a href='https://www.nombler.com' target='_blank'>Nombler</a></h2>
         <h2>Former technical architect at Venmo</h2>
         <h2>Based in Brooklyn, New York</h2>
@@ -25,3 +28,13 @@
     <a href='https://venmo.com/cash'><img src="img/venmo_logo.png" class="logo"></img></a>
   </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 70,
+    onComplete: function() {
+      document.getElementsByClassName("typed-cursor")[0].style.opacity = 0;
+    }
+  });
+</script>
