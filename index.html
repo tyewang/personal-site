@@ -10,15 +10,17 @@
     <div class="overlay-desc">
       <div class='header'>
         <div id="typed-strings">
-          <h1>Hi, ^1000 I'm Tye</h1>
+          <h1>Hi^1000, I'm Tye</h1>
         </div>
         <h1><span id="typed"></span></h1>
+        <h2>Head of Engineering at <a href='https://withotis.com' target='_blank'>Otis</a></h2>
         <h2>Founder of <a href='https://www.nombler.com' target='_blank'>Nombler</a></h2>
         <h2>Former technical architect at Venmo</h2>
         <h2>Based in Brooklyn, New York</h2>
       </div>
       <div class='body'>
-        <p>My background is in web development and fintech, but I am particularly interested in food and drink. Specifically, I'm interested in the interaction between cuisine and cultural identity.</p> <p>Right now, I'm especially interested in the history of Chinese-Americans as expressed through food.</p>
+        <p>My background is in web development and fintech, but I am most interested in food and drink.</p>
+        <p>I'm also obsessed with maps.</p>
       </div>
     </div>
   </div>
@@ -34,7 +36,7 @@
     stringsElement: '#typed-strings',
     typeSpeed: 70,
     onComplete: function() {
-      document.getElementsByClassName("typed-cursor")[0].style.opacity = 0;
+      document.getElementsByClassName("typed-cursor")[0].style.display = 'none';
     }
   });
 </script>
