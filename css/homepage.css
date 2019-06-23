@@ -10,7 +10,7 @@ a:hover {
 .poster {
   position: absolute;
   top: 0;
-  background-image: url(http://www.tyewang.com/img/background_portrait.jpg);
+  background-image: url(https://www.tyewang.com/img/background.jpg);
   background-position: 50% 60%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@ a:hover {
   position: relative;
   height: 100%;
   background: rgba(0,0,0,0.4);
-  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.9));
+  background: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.9));
   width: 50vw;
   min-height: 100vh;
   max-height: 2731/2048 * 100vw;
