@@ -20,8 +20,7 @@ a:hover {
 .overlay-desc {
   position: relative;
   height: 100%;
-  background: rgba(0,0,0,0.4);
-  background: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.9));
+  background: linear-gradient(to top, transparent 25%, rgba(0,0,0,0.4), rgba(0,0,0,0.7));
   width: 50vw;
   min-height: 100vh;
   max-height: 2731/2048 * 100vw;
@@ -61,11 +60,11 @@ a:hover {
 }
 
 .social {
-  margin-top: 20px;
-  margin-right: 20px;
-  background: rgba(0,0,0,0);
+  padding: 20px 20px 80px 80px;
+  background: radial-gradient(ellipse farthest-side at top right, rgba(0, 0, 0, 0.5), transparent);
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 50%;
+  top: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
   color: white;
